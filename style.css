@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(65, 65, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.headerOptions > a{
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+.taskStatus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.statusBox{
+    height: 1200px;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.status1{
+    background-color: rgba(255, 0, 0, 0.507);
+}
+
+.status2{
+    background-color: rgba(255, 255, 0, 0.541);
+}
+
+.status3{
+    background-color: rgba(49, 173, 0, 0.541);
+}
+
+.flex{
+    display: flex;
+}
+
+.task{
+    background-color: white;
+    text-align: start;
+    width: 85%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.task > p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 9px;
+}
+
+.taskButManager{
+    all: unset;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    padding: 16px 35px;
+    border-radius: 4px;
+}
+
+select{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px;
+}
+
+.blue{
+    background-color: rgb(65, 65, 255);
+}
+
+.red{
+    background-color: rgb(255, 46, 31);
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    margin: 7px 0px;
+}
