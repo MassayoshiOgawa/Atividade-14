@@ -1,4 +1,12 @@
 <?php
+    include 'db.php';
+    function deletarTarefa() {
+        
+    }
+
+    function mostrarTarefa() {
+
+    }
 
     $task = '      
         <div class="task">
@@ -36,9 +44,9 @@
         <h1>Sistema de Gerenciamento de Tarefas</h1>
     </header>
     <div class="headerOptions">
-        <a href="">Gerenciamento de Tarefas</a>
-        <a href="">Cadastro de Usuario</a>
-        <a href="">Cadastro de Tarefa</a>
+        <a href="index.php">Gerenciamento de Tarefas</a>
+        <a href="usuario.php">Cadastro de Usuario</a>
+        <a href="tarefa.php">Cadastro de Tarefa</a>
     </div>
     <hr>
     <div class="center">
